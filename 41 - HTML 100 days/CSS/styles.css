@@ -1,0 +1,26 @@
+<style> /* this is commenting in css , also btw **This is EXTERNAL CSS** */
+       body {
+        background-color: lightblue;
+       }
+
+       hr {
+        background-color: none;
+        border-style: dotted none none; /* according to docs, 1- top 2-L,R 3-down */
+        height: 0px;
+        border-color: black; /* everything has a border, we are reducing it */
+        border-width: 8px;
+        width: 50px;  /* or [ width:30%; ] meaning 30% of entire webpage width */
+       }
+
+       img {
+        height: 200px;
+       }
+
+       h1 {
+        color: blue;
+       }
+
+       h3 {
+       color: blue;
+       }
+</style>
