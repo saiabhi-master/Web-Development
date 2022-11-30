@@ -1,0 +1,38 @@
+/* inline > internal > external */
+/* (In external): id > class > selector */
+/* You can only use ID once, while a class name can be used by multiple html elements */
+
+/********  TAGS SELECTORS ********/
+
+body {
+    background-color: lightgreen;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+
+img:hover {   /* pseudo class of hover */
+    height: 100px;
+    background-color: gold;
+}
+
+
+
+/*******  CLASS SELECTORS *********/
+
+.bacon {
+    background-color: red;
+}
+
+.brocolli {
+    background-color: red;
+}
+
+/****** ID SELECTORS *******/
+
+#heading {
+    color: blue;
+}
